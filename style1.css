@@ -1,0 +1,245 @@
+body{
+    background-color: goldenrod;
+}
+h1{
+    text-align: center;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.item1{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    margin-right: 50px;
+    margin-left: 20px;
+    animation: item1 4s linear 1s infinite
+}
+@keyframes item1 {
+    0%{
+        transform: skew(0deg);
+    }
+    25%{
+        transform: skew(20deg);
+    }
+    50%{
+        transform: skew(-20deg);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+.item2{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    margin-right: 50px;
+    animation: item2 4s linear 1s infinite
+
+}
+@keyframes item2 {
+    0%{
+        transform: skew(0deg);
+    }
+    25%{
+        transform: skew(20deg);
+    }
+    50%{
+        transform: skew(-20deg);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+.item3{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    animation: item3 4s linear 1s infinite
+}
+@keyframes item3 {
+    0%{
+        transform: skew(0deg);
+    }
+    25%{
+        transform: skew(20deg);
+    }
+    50%{
+        transform: skew(-20deg);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+.item4{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    background-color: hotpink;
+    animation: item4 4s linear 1s infinite
+}
+@keyframes item4 {
+    0%{
+        transform: skewY(0deg);
+    }
+    25%{
+        transform: skewY(20deg);
+    }
+    50%{
+        transform: skewY(-20deg);
+    }
+    100%{
+        transform: skewY(0deg);
+    }
+}
+.item5{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    margin-right: 50px;
+    animation: item5 4s linear 1s infinite
+}
+@keyframes item5 {
+    0%{
+        transform: skewY(0deg);
+    }
+    25%{
+        transform: skewY(20deg);
+    }
+    50%{
+        transform: skewY(-20deg);
+    }
+    100%{
+        transform: skewY(0deg);
+    }
+}
+.item6{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    animation: item6 4s linear 1s infinite
+}
+@keyframes item6 {
+    0%{
+        transform: skewY(0deg);
+    }
+    25%{
+        transform: skewY(20deg);
+    }
+    50%{
+        transform: skewY(-20deg);
+    }
+    100%{
+        transform: skewY(0deg);
+    }
+}
+.item7{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    margin-right: 50px;
+    animation: item7 3s ease 1s infinite
+}
+@keyframes item7 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.item8{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    margin-right: 50px;
+    animation: item8 3s ease 1s infinite
+}
+@keyframes item8 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.item9{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    margin-right: 50px;
+    animation: item9 3s ease 1s infinite
+}
+@keyframes item9 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.item11{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    margin-right: 50px;
+    animation: item11 5s linear 1s infinite
+
+}
+@keyframes item11 {
+    0%{
+        transform: scaleY(0.5);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(0.5);
+    }
+}
+.item12{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    margin-right: 50px;
+    animation: item12 5s linear 1s infinite
+
+}
+@keyframes item12 {
+    0%{
+        transform: scaleX(0.5);
+    }
+    50%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scaleX(0.5);
+    }
+}
+.item13{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    margin-right: 50px;
+    animation: item13 5s ease 1s infinite
+
+}
+@keyframes item13 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

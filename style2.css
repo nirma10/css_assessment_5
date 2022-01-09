@@ -1,0 +1,85 @@
+body{
+    background-color: goldenrod;
+}
+h1{
+    text-align: center;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.item1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: width 4s linear;
+}
+.item1:hover{
+    width: 300px;
+}
+.item2{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: width 4s ease-in-out, height 4s ease-in-out;
+}
+.item2:hover{
+    width: 150px;
+    height: 150px;
+}
+.item3{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: width 4s linear;
+}
+.item3:hover{
+    width: 300px;
+}
+.item4{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: width 2s ease;
+}
+.item4:hover{
+    width: 300px;
+}
+.item5{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: width 2s ease-in;
+}
+.item5:hover{
+    width: 300px;
+}
+.item6{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: width 2s ease-out;
+}
+.item6:hover{
+    width: 300px;
+}
+.item7{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: green;    
+    transition: width 2s ease-in-out;
+}
+.item7:hover{
+    width: 300px;
+}
